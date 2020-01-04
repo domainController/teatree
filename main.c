@@ -5,13 +5,13 @@ int main ()
 	for (i = 1; i <= 100 ; i = i+1) {
 
 	    if (i % 15 == 0) {
-	       printf("%d fizzbuzz\n", i);
+	       printf("fizzbuzz\n");
 
             } else if (i % 5 == 0) {
-	       printf("%d buzz\n", i);
+	       printf("buzz\n");
 
 	    } else if (i % 3 == 0) {
-	       printf("%d fizz\n", i);	    
+	       printf("fizz\n");	    
 
 	    }
 	      else 
